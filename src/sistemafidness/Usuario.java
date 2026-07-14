@@ -1,6 +1,8 @@
 package sistemafidness;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
 
     private String nombreCompleto;
     private String nombreUsuario;

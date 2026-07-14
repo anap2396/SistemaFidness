@@ -73,5 +73,10 @@ public class Ejercicio {
             + "\nDificultad: " + dificultad
             + "\nRepeticiones: " + repeticiones
             + "\nCategoría: " + categoria.getNombreCategoria();
-}
+    }
+    
+    @Override
+    public String toString() {
+        return nombre;
+    }     
 }
